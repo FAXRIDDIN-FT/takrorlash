@@ -72,4 +72,30 @@ closebtnEl.addEventListener("click" ,()=>{
             sendEl.addEventListener( "click" ,()=> {
                 alert(foo())
             })
+            // topshiriq 5
+            function boldText(){
+                let text =document.querySelector(".text")
+                text.style.fontWeight = '900';
+            }
+            function startText(){
+                let text =document.querySelector(".text")
+                text.style.textAlign = 'start';
+            }
+            function centerText(){
+                let text =document.querySelector(".text")
+                text.style.textAlign = 'center';
+            }
             
+            function endText(){
+                let text =document.querySelector(".text")
+                text.style.textAlign = 'end';
+            }
+            function normalText(){
+                let text =document.querySelector(".text")
+                text.style.fontWeight = '600';
+            }
+            function thimText(){
+                let text =document.querySelector(".text")
+                text.style.color = 'red';
+            }
+     
