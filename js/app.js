@@ -98,4 +98,8 @@ closebtnEl.addEventListener("click" ,()=>{
                 let text =document.querySelector(".text")
                 text.style.color = 'red';
             }
+            function italicText(){
+                let text =document.querySelector(".text")
+                text.style.fontStyle = 'italic';
+            }
      
