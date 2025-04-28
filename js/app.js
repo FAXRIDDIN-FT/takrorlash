@@ -63,7 +63,7 @@ closebtnEl.addEventListener("click" ,()=>{
             const sendEl =document.querySelector(".send")
             function foo(){
                 if (userEl.value === "john32" && passwordEl.value === "123456") {
-                    return "Hush kelibsiz"
+                    return "Hush kelibsiz"  
                 } else {
                     return "Parol yoki user hato"
                 }
